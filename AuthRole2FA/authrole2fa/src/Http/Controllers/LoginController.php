@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\AuthPackage\Http\Controllers;
+namespace authrole2fa\authrole2fa\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

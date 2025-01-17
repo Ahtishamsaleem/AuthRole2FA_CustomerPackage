@@ -1,5 +1,5 @@
 {
-  "name": "laravel/laravel",
+  "name": "authrole2fa/authrole2fa",
   "type": "project",
   "require": {
       "php": "^8.2",
