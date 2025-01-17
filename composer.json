@@ -1,28 +1,29 @@
 {
-  "name": "authrole2fa/authrole2fa",
-  "type": "project",
-  "require": {
-      "php": "^8.2",
-      "laravel/framework": "^11.9",
-  },
-  "repositories": [
-      {
-          "type": "path",
-          "url": "https://github.com/Ahtishamsaleem/AuthRole2FA_CustomerPackage.git"
-      }
-  ],
-  "autoload": {
-      "psr-4": {
-          "AuthRole2FA\\AuthRole2FA\\": "AuthRole2FA/authrole2fa/src/",
-          "App\\": "app/",
-          "Database\\Factories\\": "database/factories/",
-          "Database\\Seeders\\": "database/seeders/"
-      }
-  },
-  "config": {
-      "preferred-install": "dist",
-      "sort-packages": true
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
-}
+    "name": "authrole2fa/authrole2fa",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.9"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/Ahtishamsaleem/AuthRole2FA_CustomerPackage.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AuthRole2FA\\AuthRole2FA\\": "AuthRole2FA/authrole2fa/src/",
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+  }
+  
