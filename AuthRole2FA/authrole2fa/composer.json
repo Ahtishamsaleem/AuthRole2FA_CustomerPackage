@@ -1,0 +1,26 @@
+{
+    "name": "AuthRole2FA/AuthRole2FA",
+    "description": "A custom authentication, roles, and 2FA package for Laravel.",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "AuthRole2FA\\AuthRole2FA\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^8.2",
+      "laravel/framework": "^11.9",
+      "pragmarx/google2fa": "^8.0",
+      "endroid/qr-code": "^6.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "AuthRole2FA\\AuthRole2FA\\ServiceProvider"
+        ]
+      }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+  }
+  
