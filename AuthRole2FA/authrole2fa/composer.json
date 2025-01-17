@@ -9,7 +9,7 @@
   "repositories": [
       {
           "type": "path",
-          "url": "packages/AuthRole2FA/AuthRole2FA"
+          "url": "https://github.com/Ahtishamsaleem/AuthRole2FA_CustomerPackage.git"
       }
   ],
   "autoload": {
