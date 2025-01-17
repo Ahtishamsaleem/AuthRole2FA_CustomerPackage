@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\AuthPackage;
+namespace authrole2fa\AuthPackage;
 
 use Illuminate\Support\ServiceProvider;
 
