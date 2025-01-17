@@ -14,6 +14,7 @@
   ],
   "autoload": {
       "psr-4": {
+          "AuthRole2FA\\AuthRole2FA\\": "AuthRole2FA/authrole2fa/src/",
           "App\\": "app/",
           "Database\\Factories\\": "database/factories/",
           "Database\\Seeders\\": "database/seeders/"
