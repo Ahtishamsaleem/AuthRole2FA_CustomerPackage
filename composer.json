@@ -4,7 +4,6 @@
   "require": {
       "php": "^8.2",
       "laravel/framework": "^11.9",
-      "authrole2fa/authrole2fa": "dev-main"
   },
   "repositories": [
       {
